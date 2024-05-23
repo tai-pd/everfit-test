@@ -4,7 +4,7 @@ import {excerciseProps} from "../components/ExcerciseGroup/Excercise";
 export const exercises: excerciseProps[] = [
 	{
 		id: '1',
-		title: 'Lunges',
+		title: 'Lunges lkajsdlakjsdlaskjdlaskjdlaskjd',
 		leffBotomString: '3x',
 		rightBotomString: '30 lb x 6',
 		groupId: '1'

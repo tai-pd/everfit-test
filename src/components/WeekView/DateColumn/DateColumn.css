@@ -1,6 +1,7 @@
 .dateColumn-container {
     flex-basis: calc(100%/7 - 10px);
     height: 90vh;
+    max-width: calc(100%/7 - 10px);
 }
 
 .dateColumn-container:last-child {

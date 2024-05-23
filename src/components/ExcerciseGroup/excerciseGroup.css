@@ -7,12 +7,12 @@
   margin-bottom: 10px;
 }
 
-.excerciseGroup__title {
+.excerciseGroup-title {
   display: flex;
   margin-bottom: 5px;
 }
 
-.excerciseGroup__title__line {
+.excerciseGroup-title-line {
   font-size: 16px;
   font-weight: 700;
   color: #5A57CB;
@@ -22,7 +22,7 @@
   white-space: nowrap;
 }
 
-.excerciseGroup__title__icon {
+.excerciseGroup-title-icon {
   font-size: 24px;
   color: #5A57CB;
   margin-top: -12px;

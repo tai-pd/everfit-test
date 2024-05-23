@@ -30,9 +30,9 @@ const ExcerciseGroup = ({title, exercises = [], id}: excerciseGroupProps) => {
 	return (
 		<div ref={groupDrag} className="excerciseGroup">
 			<div ref={exerciseDrop}>
-				<div className='excerciseGroup__title'>
-					<p className='excerciseGroup__title__line'>{title ?? 'TITLE'}</p>
-					<span className='excerciseGroup__title__icon'>...</span>
+				<div className='excerciseGroup-title'>
+					<p className='excerciseGroup-title-line'>{title ?? 'TITLE'}</p>
+					<span className='excerciseGroup-title-icon'>...</span>
 				</div>
 				<div className='excerciseGroup__exercises'>
 					{exercises.length > 0 && exercises.map((exercise) => (

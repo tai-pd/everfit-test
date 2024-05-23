@@ -23,10 +23,9 @@ export const DataProvider = ({children}: {
 	const moveWorkOut = (id: string, toDate: Date) => {
 		let newWorkout = [...workout]
 		const updatedWorkout = newWorkout.find(el => el.id === id);
+		const index = newWorkout.findIndex(el => el.id === id);
 		if (updatedWorkout?.date) {
-			updatedWorkout.date = toDate
-			newWorkout = newWorkout.filter(el => el.id !== id)
-			newWorkout = [...newWorkout, updatedWorkout]
+			newWorkout[index].date = toDate
 			setWorkout(newWorkout)
 		}
 	}
@@ -35,10 +34,9 @@ export const DataProvider = ({children}: {
 		(id: string, toGroup: string) => {
 			let newExercise = [...exercise]
 			const updatedExercise = exercise.find(el => el.id === id);
+			const index = exercise.findIndex(el => el.id === id);
 			if (updatedExercise?.groupId) {
-				updatedExercise.groupId = toGroup
-				newExercise = newExercise.filter(el => el.id !== id)
-				newExercise = [...newExercise, updatedExercise]
+				newExercise[index].groupId = toGroup
 				setExercise(newExercise)
 			}
 		}

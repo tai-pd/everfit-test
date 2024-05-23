@@ -6,7 +6,7 @@
   margin-bottom: 5px;
 }
 
-.excercise__title {
+.excercise-title {
   width: 100%;
   text-align: end;
   text-overflow: ellipsis;
@@ -14,13 +14,13 @@
   white-space: nowrap;
 }
 
-.excercise__title__text {
+.excercise-title-text {
   font-size: 18px;
   font-weight: 600;
   color: #000000;
 }
 
-.excercise__leftbotoms__text {
+.excercise-eftbotoms-text {
   font-family: Open Sans;
   font-size: 10px;
   font-weight: 700;
@@ -28,7 +28,7 @@
   color: #919CAD;
 }
 
-.excercise__rightbotoms__text {
+.excercise-rightbotoms-text {
   font-size: 10px;
   font-weight: 400;
   line-height: 13.62px;
@@ -36,7 +36,7 @@
   color: #95A6B7;
 }
 
-.excercise__botoms {
+.excercise-botoms {
   display: flex;
   justify-content: space-between;
   padding: 5px 0px 5px 0px;

@@ -1,4 +1,4 @@
-import {excerciseProps} from "../components/ExcerciseGroup/Excercise";
+import {excerciseProps} from "../components/ExcerciseGroup/Excercise/Excercise";
 
 
 export const exercises: excerciseProps[] = [

@@ -1,6 +1,6 @@
 import {createContext, ReactNode, useContext, useEffect, useState} from 'react';
 import {exercises, workouts} from "../../shared/data";
-import {excerciseProps} from "../ExcerciseGroup/Excercise";
+import {excerciseProps} from "../ExcerciseGroup/Excercise/Excercise";
 
 export const DataContext = createContext<{
 	workout: { id: string, name: string, date: Date }[],

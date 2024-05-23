@@ -1,7 +1,7 @@
 import {DateColumn} from "./DateColumn/DateColumn";
 import React from "react";
 import './WeekView.css';
-import ExcerciseGroup from "../ExcerciseGroup";
+import ExcerciseGroup from "../ExcerciseGroup/ExcerciseGroup";
 import {isSameDate} from "../../shared/utility";
 import {useDataContext} from "../DataContext/DataContext";
 

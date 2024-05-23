@@ -1,0 +1,21 @@
+.dateTitle-container {
+    display: flex;
+    width: 100%;
+}
+
+.dateColumn-title-highlight {
+    color: dodgerblue;
+    font-weight: bold;
+}
+
+.dateTitle-button {
+    margin-left: auto;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+}
+
+.dateTitle-icon {
+    height: 16px;
+    width: 16px;
+}

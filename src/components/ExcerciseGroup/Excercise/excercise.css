@@ -1,0 +1,40 @@
+.excercise {
+  position: relative;
+  border-radius: 5px;
+  border: 1px solid #DFDFDF;
+  padding: 7px;
+  margin-bottom: 5px;
+}
+
+.excercise__title {
+  width: 100%;
+  text-align: end;
+}
+
+.excercise__title__text {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.excercise__leftbotoms__text {
+  font-family: Open Sans;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 13.62px;
+  color: #919CAD;
+}
+
+.excercise__rightbotoms__text {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 13.62px;
+  text-align: right;
+  color: #95A6B7;
+}
+
+.excercise__botoms {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0px 5px 0px;
+}

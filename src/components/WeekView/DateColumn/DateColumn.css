@@ -1,0 +1,25 @@
+.dateColumn-container {
+    flex-basis: calc(100%/7 - 10px);
+    height: 90vh;
+}
+
+.dateColumn-container:last-child {
+    flex-basis: calc(100%/7);
+}
+
+.dateColumn-header {
+    padding: 20px 20px 20px 0;
+    color: #5e5e5e;
+}
+
+.dateColumn-content {
+    background: #e6e6e6;
+    color: #3c3c3c;
+    height: 100%;
+    padding: 5px;
+}
+
+.dateColumn-main-content {
+    width: 100%;
+    padding: 5px;
+}

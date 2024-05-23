@@ -1,0 +1,38 @@
+.excerciseGroup {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f7f7f7;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.excerciseGroup__title {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.excerciseGroup__title__line {
+  font-size: 16px;
+  font-weight: 700;
+  color: #5A57CB;
+  width: calc(100% - 40px);
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.excerciseGroup__title__icon {
+  font-size: 24px;
+  color: #5A57CB;
+  margin-top: -12px;
+  margin-left: auto;
+  padding-left: 16px;
+}
+
+.excerciseGroup-button {
+  border: none;
+  background: transparent;
+  width: 100%;
+  text-align: end;
+}

@@ -34,7 +34,7 @@ const ExcerciseGroup = ({title, exercises = [], id}: excerciseGroupProps) => {
 					<p className='excerciseGroup-title-line'>{title ?? 'TITLE'}</p>
 					<span className='excerciseGroup-title-icon'>...</span>
 				</div>
-				<div className='excerciseGroup__exercises'>
+				<div className='excerciseGroup-exercises'>
 					{exercises.length > 0 && exercises.map((exercise) => (
 						<Excercise {...exercise} id={exercise.id}/>
 					))}

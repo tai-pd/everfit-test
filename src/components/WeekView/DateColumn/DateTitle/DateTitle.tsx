@@ -8,7 +8,7 @@ interface DateTitleProps {
 	highlight?: boolean
 }
 
-export const DateTitle = ({children, addable, highlight}: DateTitleProps) => {
+const DateTitle = ({children, addable, highlight}: DateTitleProps) => {
 	return <div className={"dateTitle-container"}>
 		<span className={"dateTitle-title" + (highlight && " dateColumn-title-highlight")}>{children}</span>
 		{addable && <button className={"dateTitle-button"}>
@@ -16,3 +16,5 @@ export const DateTitle = ({children, addable, highlight}: DateTitleProps) => {
 		</button>}
 	</div>
 }
+
+export default DateTitle

@@ -1,6 +1,6 @@
 import "./DateColumn.css"
 import {getDayOfMonth, getWeekDayName, isCurrentDate} from "../../../shared/utility";
-import {DateTitle} from "./DateTitle/DateTitle";
+import DateTitle from "./DateTitle/DateTitle";
 import {ReactNode} from "react";
 import {useDrop} from "react-dnd";
 import {useDataContext} from "../../DataContext/DataContext";
@@ -11,7 +11,7 @@ interface DateColumnProps {
 }
 
 
-export const DateColumn = ({date, content}: DateColumnProps) => {
+const DateColumn = ({date, content}: DateColumnProps) => {
 	const {moveWorkOut} = useDataContext()
 	const [_, drop] = useDrop(
 		() => ({
@@ -35,3 +35,5 @@ export const DateColumn = ({date, content}: DateColumnProps) => {
 		</div>
 	</div>
 }
+
+export default DateColumn

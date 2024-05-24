@@ -1,4 +1,4 @@
-import {DateColumn} from "./DateColumn/DateColumn";
+import DateColumn from "./DateColumn/DateColumn";
 import React from "react";
 import './WeekView.css';
 import ExcerciseGroup from "../ExcerciseGroup/ExcerciseGroup";
@@ -10,7 +10,7 @@ interface WeekViewProps {
 }
 
 
-export const WeekView = ({dates}: WeekViewProps) => {
+const WeekView = ({dates}: WeekViewProps) => {
 	const {exercise: exercises, workout: workouts} = useDataContext()
 	return <div className={"weekView-container"}>
 		{
@@ -24,3 +24,5 @@ export const WeekView = ({dates}: WeekViewProps) => {
 		}
 	</div>
 }
+
+export default WeekView

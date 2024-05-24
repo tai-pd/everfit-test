@@ -16,7 +16,7 @@ const Excercise = ({id, title = 'TITLE', leffBotomString = 'LEFF', rightBotomStr
 	}))
 
 	return (
-		<div ref={exerciseDrag} className="excercise">
+		<div ref={exerciseDrag} className="excercise" key={id}>
 			<div className='excercise-title'>
 				<span className='excercise-title-text'>{title}</span>
 			</div>

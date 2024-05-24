@@ -16,7 +16,7 @@ const WeekView = ({dates}: WeekViewProps) => {
 		{
 			dates.map(date => <DateColumn key={date.getTime()}
 			                              content={workouts.filter(el => isSameDate(el.date, date)).map(group => {
-				                              return <ExcerciseGroup id={group.id}
+				                              return <ExcerciseGroup key={group.id} id={group.id}
 				                                                     title={group?.name ?? ""}
 				                                                     exercises={exercises.filter(el => el.groupId === group.id)}/>
 			                              })}

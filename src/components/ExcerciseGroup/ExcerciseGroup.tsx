@@ -36,7 +36,7 @@ const ExcerciseGroup = ({title, exercises = [], id}: excerciseGroupProps) => {
 				</div>
 				<div className='excerciseGroup-exercises'>
 					{exercises.length > 0 && exercises.map((exercise) => (
-						<Excercise {...exercise} id={exercise.id}/>
+						<Excercise key={exercise.id} {...exercise} id={exercise.id}/>
 					))}
 				</div>
 				<button className={"excerciseGroup-button"}>
